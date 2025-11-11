@@ -20,8 +20,8 @@ This implementation is self-contained in `tc_thread_pool.h` and `tc_thread_pool.
 * A C++17 compliant compiler (e.g., g++ 4.8+, Clang 3.3+, MSVC 2013+).
 * For Linux/macOS, linking against the `pthread` library is required (`-lpthread`).
 
-## How to Build
-# Building with CMake (Recommended)
+# How to Build
+## Building with CMake (Recommended)
 mkdir build
 cd build
 cmake ..
@@ -29,7 +29,7 @@ cmake --build .
 make
 ./my_app
 
-# on linux:
+## on linux:
 g++ -o my_app main.cpp tc_thread_pool.cc -std=c++11 -lpthread -O2
 ./my_app
 
